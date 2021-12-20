@@ -1,13 +1,13 @@
 # Props assignment exercise
 
 ## Exercise description
-```
-Description:
+
+### Description:
 You are to build a mechanism that handles users in a queue.
 A user can be in the queue only once and the order is “first in first out” (FIFO)
 You are dealing with a large-scale system and many users can join the queue simultaneously.
 
-Your Assignment:
+### Your Assignment:
 Build a queue management class that has the following methods:
 1. add – gets a userId as a parameter. Returns the position it got in the queue.
 2. removeByUser – gets a userId as a parameter. Removes the user from the queue.
@@ -28,5 +28,16 @@ Your solution should include 2 (or more) files:
 and performs actions by reading actions.txt file (sample file in the appendix below; each
 new line is a new command)
 Each action should print to stdout the action that was performed and the return value.
+
+## Solution
+
+Clone this repo, navigate to props-assignment and execute:
+
+```
+node main.js
 ```
 
+In case you want to execute your own actions file, you can execute it this way:
+```
+node main.js actions=myActions.txt
+```
